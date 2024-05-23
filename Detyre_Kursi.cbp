@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Detyre_Kursi" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Detyre_Kursi" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Detyre_Kursi" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="instruktor.txt" />
+		<Unit filename="kurs.txt" />
+		<Unit filename="lista_instruktor.txt" />
+		<Unit filename="lista_kurs.txt" />
+		<Unit filename="lista_kursInstruktor.txt" />
+		<Unit filename="lista_student.txt" />
+		<Unit filename="lista_studentInstruktor.txt" />
+		<Unit filename="lista_studentKursi.txt" />
+		<Unit filename="main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="student.txt" />
+		<Unit filename="student_kurs.txt" />
+		<Extensions />
+	</Project>
+</CodeBlocks_project_file>
